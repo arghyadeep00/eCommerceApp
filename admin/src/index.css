@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+tr:nth-child(even) {
+  background-color: #f2f2f2; /* Light gray for even rows */
+}
+
+tr:hover {
+  background-color: #ddd; /* Highlight row on hover */
+  cursor: pointer;
+}
+
+th {
+  background-color: #4caf50;
+  color: white;
+}

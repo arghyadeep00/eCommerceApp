@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&family=Quicksand:wght@300..700&display=swap");
+body {
+  font-family: "Poppins";
+}
+.right img {
+  width: 25px;
+  height: 25px;
+}
+.explore {
+  font-family: "Quicksand";
+}
+.explore img {
+  width: 20vw;
+}
+.box img{
+  width: 30px;
+}
+.box{
+  /* rounded-lg min-w-32 border p-3 flex flex-col justify-center items-center */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.75rem;
+  min-width: 8rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+/* Custom scrollbar styles */
+.custom-scrollbar {
+  overflow-x: hidden;  /* Hide horizontal scrollbar */
+  overflow-y: auto;    /* Show vertical scrollbar */
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: #9fa9d6 #f8f8fb; /* Thumb and track colors */
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f8f8fb; /* Track color */
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #9ca8db; /* Thumb color */
+  border-radius: 10px;
+  border: 2px solid #f8f8fb; /* Optional border around the thumb */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #b6bddb; /* Thumb color on hover */
+}
+
+
